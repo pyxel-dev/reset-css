@@ -1,0 +1,36 @@
+{
+  "name": "@pyxel-dev/reset-css",
+  "version": "1.0.1",
+  "description": "Tiny Reset CSS",
+  "keywords": [
+    "reset",
+    "css"
+  ],
+  "homepage": "https://github.com/pyxel-dev/reset-css#readme",
+  "bugs": {
+    "url": "https://github.com/pyxel-dev/reset-css/issues"
+  },
+  "license": "MIT",
+  "author": "Pyxel <contact@pyxel.dev> (https://github.com/pyxel-dev)",
+  "contributors": [
+    "Kevin Py <kevin.py@pyxel.dev> (https://kevinpy.com)"
+  ],
+  "files": [
+    "reset.scss",
+    "reset.min.css",
+    "reset.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyxel-dev/reset-css.git"
+  },
+  "scripts": {
+    "build": "npm run build:min && npm run build:dev",
+    "build:min": "node-sass --output-style compressed reset.scss reset.min.css",
+    "build:dev": "node-sass --output-style expanded reset.scss reset.css",
+    "watch": "npm run build -- -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
