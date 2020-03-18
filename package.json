@@ -1,6 +1,6 @@
 {
-  "name": "@pyxel-dev/reset-css",
-  "version": "1.0.1",
+  "name": "@pyxeldev/reset-css",
+  "version": "1.1.0",
   "description": "Tiny Reset CSS",
   "keywords": [
     "reset",
