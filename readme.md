@@ -1,6 +1,5 @@
 # Reset CSS
 
-[![npm](https://img.shields.io/npm/v/minireset.css.svg)](https://www.npmjs.com/package/@pyxel-dev/reset-css)
 [![Version](https://img.shields.io/github/release/pyxel-dev/reset-css.svg)](https://github.com/pyxel-dev/reset-css/releases)
 
 A simple Reset CSS with features:
