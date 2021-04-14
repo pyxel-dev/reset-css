@@ -15,7 +15,7 @@ A simple Reset CSS with features:
 Download the [unminified](https://raw.githubusercontent.com/pyxel-dev/reset-css/master/reset.css) or [minified](https://raw.githubusercontent.com/pyxel-dev/reset-css/master/reset.min.css) version
 
 ```sh
-npm i @pyxel-dev/reset-css
+npm i @pyxeldev/reset-css
 ```
 
 ## CDN
